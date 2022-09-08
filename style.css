@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+bory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#info {
+    display: block;
+    grid-template-columns: auto auto auto auto;
+}
+
+#info div {
+    padding: 3rem;
+    background: blue;
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
